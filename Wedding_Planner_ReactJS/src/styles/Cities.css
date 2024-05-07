@@ -1,0 +1,30 @@
+.cities {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .cities h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cities li {
+    margin: 10px 0;
+  }
+
+
+
+  .cities-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to multiple rows */
+    justify-content: space-around; /* Distribute evenly with some space */
+  }
+  
+  

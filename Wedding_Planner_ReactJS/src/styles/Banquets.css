@@ -1,0 +1,32 @@
+.banquets {
+    text-align: center;
+  }
+  
+  .banquets h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banquets ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .banquets li {
+    margin: 10px 0;
+  }
+  
+  .banquet-grid {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to multiple rows */
+    justify-content: space-between; /* Distribute evenly with some space */
+    align-items: flex-start; /* Align top edges */
+  }
+  
+  .banquet-card {
+    flex: 0 0 300px; /* Set minimum width for each card */
+    margin: 10px; /* Add spacing between cards */
+  }
+  
